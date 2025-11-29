@@ -33,6 +33,7 @@
     "@tabler/icons-react": "^3.35.0",
     "axios": "^1.6.8",
     "dayjs": "^1.11.10",
+    "firebase": "^12.6.0",
     "i18next": "^23.10.1",
     "lottie-web": "^5.12.2",
     "mantine-form-yup-resolver": "^2.0.0",

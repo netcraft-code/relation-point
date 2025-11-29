@@ -1,6 +1,12 @@
 # Mantine Vite template
 One ⭐ is the best and the easiest support you can give. <3
 
+Email: e.g., admin@test.com
+
+Password: e.g., 12345qwerty
+
+I need help setting up my Web app in React js and authenticate with Firebase (phone, e address, google, and facebook) User will register with Firebase using one of these methods, and upon successful registration, I will need to send the user id to my backend using my APIs. When the user logs in successfully, a session is created and also sent to the backend via another API. Authentication should include sending code to mobile or email to verify, forgot password flow, and error detection and messages. My backend is in Python, but I will be managing the backend. I just need the front-end work.Once the user logs in successfully, he will be routed to the home page. Pages include Home, Families, Cities, Chat, and Profile.
+
 
 ## Features
 

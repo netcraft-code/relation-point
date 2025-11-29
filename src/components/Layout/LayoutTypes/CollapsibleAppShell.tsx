@@ -14,6 +14,7 @@ import { IconSun, IconMoonStars } from '@tabler/icons-react';
 import Views from '@/components/Layout/Views';
 import App from '@/App';
 import CollapsibleAppShellBottomContent from '@/components/Layout/LayoutTypes/CollapsibleAppShellBottomContent';
+import { ColorSchemeToggle } from '@/components/ColorSchemeToggle/ColorSchemeToggle';
 interface CollapsibleAppShellProps {
   colorScheme: 'light' | 'dark';
   toggleColorScheme: () => void;
@@ -112,7 +113,7 @@ export default function CollapsibleAppShell({ colorScheme, toggleColorScheme }: 
           <Group>
             <Burger opened={mobileOpened} onClick={toggleMobile} hiddenFrom="sm" size="sm" />
             <Burger opened={desktopOpened} onClick={toggleDesktop} visibleFrom="sm" size="sm" />
-            <div style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>Net craft global</div>
+            <div style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>RelationPoint</div>
           </Group>
 
           {/* Right side: dark mode toggle */}
